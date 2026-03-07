@@ -2,6 +2,8 @@
 
 Real-time anonymous campus discussion platform. This is the backend API and WebSocket server for the **Campus Whisper** frontend.
 
+Live demo: https://campus-whisper.onrender.com
+
 ## Tech Stack
 
 - **Runtime:** Node.js
@@ -196,3 +198,6 @@ Authorization: Bearer <jwt-token>
 - `content` — message content (text/HTML/markdown)
 - `type` — text / code / system / image
 - `metadata` — optional extra data (language for code, URL for images, etc.)
+
+License
+- This project is released under the MIT License. See [../LICENSE](../LICENSE) for details.

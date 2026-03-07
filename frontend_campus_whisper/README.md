@@ -2,6 +2,8 @@
 
 This is a standalone React Frontend application built with Vite and TypeScript.
 
+Live demo: https://campus-whisper.onrender.com
+
 ## Getting Started
 
 ### Prerequisites
@@ -41,3 +43,6 @@ This is a standalone React Frontend application built with Vite and TypeScript.
     ```bash
     npm run preview
     ```
+
+License
+- This project is released under the MIT License. See [../LICENSE](../LICENSE) for details.

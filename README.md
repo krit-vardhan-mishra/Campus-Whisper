@@ -1,73 +1,87 @@
 # Campus Whisper
 
-Campus Whisper is a real-time, privacy-first campus chat platform (anonymous handles, rooms, and realtime messaging).
+**Real-time anonymous campus chat platform**  
+Like Chinese Whisper gone wild: one rumor, doubt, roast or confession enters the chat… by the time it reaches the 50th person it's morphed into five different savage versions. Everyone walks away with their own twisted, unfiltered take — zero names attached.
 
-This repository contains both the frontend and backend projects as separate folders so you can run them locally or combine them into a single monorepo if desired.
+Perfect for:
+- Asking "dumb" questions without judgment
+- Roasting campus Wi-Fi / mess / profs safely
+- Confessions, memes, group study SOS, pure bakchodi
+- Jo bolna hai bolo
 
-Contents
-- `frontend_campus_whisper/` — React + Vite frontend (TypeScript).
-- `backend_campus_whisper/` — Node.js + Express + Socket.IO backend.
+### Features
+- 100% anonymous (random fun usernames, no email/phone)
+- Real-time messaging (Socket.IO)
+- Categorized rooms: tech, study, confessions, gaming, social, etc.
+- No dean, no tracking, no receipts
+- Dark theme, mobile-friendly, modern UI
 
-Quick links
-- Frontend README: [frontend_campus_whisper/README.md](frontend_campus_whisper/README.md)
-- Backend README: [backend_campus_whisper/README.md](backend_campus_whisper/README.md)
- - Project overview: [OVERVIEW.md](OVERVIEW.md)
+Live demo (Render free tier — may nap): https://campus-whisper.onrender.com
 
-Tech stack
-- Frontend: React, TypeScript, Vite, Tailwind CSS
-- Backend: Node.js, Express, MongoDB (Mongoose), Socket.IO, JWT
+### Tech Stack
+- **Frontend**: React 18 + TypeScript + Vite + Tailwind CSS + shadcn/ui
+- **Backend**: Node.js + Express + Socket.IO + MongoDB (Mongoose) + JWT
+- **Real-time**: WebSockets via Socket.IO
+- **Auth**: Stateless anonymous JWT sessions
 
-Quick start (developer)
-1. Install dependencies for backend and frontend separately:
-
-```bash
-cd backend_campus_whisper
-npm install
-
-cd ../frontend_campus_whisper
-npm install
+### Project Structure
+```
+campus-whisper/
+├── frontend_campus_whisper/     → React/Vite app
+├── backend_campus_whisper/      → Express + Socket.IO server
+├── OVERVIEW.md                  → Architecture deep-dive
+├── OVERVIEW_Unhinged.md         → Extra spicy notes (optional)
+└── README.md                    → You are here
 ```
 
-2. Run backend (default port 5002):
+### Quick Start (Local)
 
+**Backend**
 ```bash
 cd backend_campus_whisper
+npm install
+cp .env.example .env          # fill MONGODB_URI & JWT_SECRET
 npm run dev
 ```
 
-3. Run frontend (Vite, default port 5173):
-
+**Frontend**
 ```bash
 cd frontend_campus_whisper
+npm install
+cp .env.example .env.local    # update VITE_API_URL if backend port ≠ 5000
 npm run dev
 ```
 
-Environment variables
-- Backend expects a `.env` file. See `backend_campus_whisper/README.md` for required variables (`PORT`, `MONGODB_URI`, `JWT_SECRET`).
-- Frontend may use `.env.local` for local API keys. See `frontend_campus_whisper/README.md`.
+Detailed steps → check each folder's own README.
 
-Security note (important)
-- While scanning the workspace a few secrets were found in local files. If any of these were pushed to a public remote, rotate them immediately:
-  - `backend_campus_whisper/.env` (contains `MONGODB_URI` and `JWT_SECRET`)
-  - `frontend_campus_whisper/.env.local` (contains `MONGODB_URI` and API key placeholder)
-  - `backend_campus_whisper/temp_credentials.txt`
+### 🚨 Security Notice (for anyone cloning/using)
+Never commit `.env` files or credential dumps.  
+Previously seen risky files (remove from history if present):
+- `backend_campus_whisper/.env` (MONGODB_URI, JWT_SECRET)
+- `frontend_campus_whisper/.env.local`
+- `backend_campus_whisper/temp_credentials.txt`
 
-Immediate recommended actions
-- Rotate exposed credentials (MongoDB user password and any API keys, and replace the `JWT_SECRET`).
-- Remove the secret-containing files from remote history (use `git filter-repo` or BFG) and push a cleaned branch.
-- Add `*.env*` and `temp_credentials.txt` to `.gitignore`.
-- Use environment variable management on CI and secrets vaults for production (GitHub Secrets, Azure Key Vault, etc.).
+**Do this**:
+1. Rotate any leaked secrets immediately
+2. Clean history (example):
+   ```bash
+   git filter-repo --invert-paths --path .env --path .env.local --path temp_credentials.txt --force
+   git push origin --force --all
+   ```
+3. Add to `.gitignore`:
+   ```
+   *.env*
+   temp_credentials.txt
+   ```
+4. Use secure secrets in production (Render dashboard, Vercel env, GitHub Secrets)
 
-Monorepo options
-- Quick import (no history): copy both folders into a new repo and commit.
-- Preserve history (recommended when history matters): use `git subtree` or `git filter-repo` to merge repositories into subfolders while keeping each repo's history.
-- Keep separate but referenced: use `git submodule` (more complex for contributors).
+No live credentials are leaking on the demo site (no console dumps, no exposed endpoints), but treat old commits as potentially compromised.
 
-Contributing
-- See each subproject's README for local development and contribution guidelines.
+### Contributing
+PRs welcome — add rooms, features, bug fixes, or more chaos.  
+Use conventional commits if you want bonus points 😈
 
-License
-- (Add your project license here)
+### License
+MIT — fork, deploy, roast responsibly.
 
-Questions or next steps
-- I can: remove secrets from history, create a monorepo (simple copy or preserving history), or help rotate and reconfigure secrets—tell me which you'd like.
+Questions / want rate-limiting added / monorepo conversion? Open an issue.

@@ -1,0 +1,19 @@
+{
+  "name": "campus-whisper",
+  "version": "1.0.0",
+  "description": "Campus Whisper – Anonymous campus chat (full-stack)",
+  "scripts": {
+    "install:frontend": "cd frontend_campus_whisper && npm install",
+    "install:backend": "cd backend_campus_whisper && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "build:frontend": "cd frontend_campus_whisper && npm run build",
+    "build": "npm run install:frontend && npm run build:frontend",
+    "start": "cd backend_campus_whisper && node server.js",
+    "dev:backend": "cd backend_campus_whisper && npm run dev",
+    "dev:frontend": "cd frontend_campus_whisper && npm run dev",
+    "keep-alive": "node keep-alive.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,4974 @@
+{
+  "exportedAt": "2026-02-25T15:19:54.591Z",
+  "project": "CampusWhisper",
+  "summary": {
+    "totalUsers": 9,
+    "totalRooms": 30,
+    "totalMessages": 123
+  },
+  "users": [
+    {
+      "_id": "69966a976ba90c5499a815b8",
+      "alias": "Anonymous_Badger",
+      "avatar": "",
+      "handle": "@anonymous_badger",
+      "status": "online",
+      "frequency": "Main Campus",
+      "joinedRooms": [],
+      "createdAt": "2026-02-19T01:42:47.427Z",
+      "updatedAt": "2026-02-25T15:14:51.076Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b912149113e28a4e858d",
+      "alias": "TempUser",
+      "avatar": "",
+      "handle": "@tempuser",
+      "status": "online",
+      "frequency": "Main Campus",
+      "joinedRooms": [
+        {
+          "_id": "6997b912149113e28a4e8590",
+          "name": "CS Nerd",
+          "description": "For all things computer science",
+          "category": "tech",
+          "image": "https://images.pexels.com/photos/538694/pexels-photo-538694.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:54.917Z",
+          "updatedAt": "2026-02-20T01:38:10.364Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b913149113e28a4e859a",
+          "name": "Sport Enthusiastic",
+          "description": "Discussing all sports",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/972513/pexels-photo-972513.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:55.398Z",
+          "updatedAt": "2026-02-20T01:38:11.125Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b913149113e28a4e85a3",
+          "name": "Cinemaan",
+          "description": "Movie buffs unite",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:55.882Z",
+          "updatedAt": "2026-02-20T01:38:11.958Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b914149113e28a4e85ac",
+          "name": "Photogenic",
+          "description": "Photography tips and sharing",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/68550/thailand-elephant-sunset-nature-68550.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:56.375Z",
+          "updatedAt": "2026-02-20T01:38:12.838Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b914149113e28a4e85b5",
+          "name": "Natural",
+          "description": "Nature lovers and hikers",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/45848/kumamoto-japan-aso-cloud-45848.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:56.799Z",
+          "updatedAt": "2026-02-20T01:38:13.346Z",
+          "__v": 1
+        }
+      ],
+      "createdAt": "2026-02-20T01:29:54.508Z",
+      "updatedAt": "2026-02-20T01:38:08.120Z",
+      "__v": 1
+    },
+    {
+      "_id": "6997bb00e30bfea2cd061f8a",
+      "alias": "Alice",
+      "avatar": "https://i.pravatar.cc/150?u=Alice",
+      "handle": "@alice",
+      "status": "online",
+      "frequency": "Engineering Hall",
+      "joinedRooms": [
+        {
+          "_id": "6997b912149113e28a4e8590",
+          "name": "CS Nerd",
+          "description": "For all things computer science",
+          "category": "tech",
+          "image": "https://images.pexels.com/photos/538694/pexels-photo-538694.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:54.917Z",
+          "updatedAt": "2026-02-20T01:38:10.364Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b913149113e28a4e859a",
+          "name": "Sport Enthusiastic",
+          "description": "Discussing all sports",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/972513/pexels-photo-972513.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:55.398Z",
+          "updatedAt": "2026-02-20T01:38:11.125Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b913149113e28a4e85a3",
+          "name": "Cinemaan",
+          "description": "Movie buffs unite",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:55.882Z",
+          "updatedAt": "2026-02-20T01:38:11.958Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b914149113e28a4e85ac",
+          "name": "Photogenic",
+          "description": "Photography tips and sharing",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/68550/thailand-elephant-sunset-nature-68550.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:56.375Z",
+          "updatedAt": "2026-02-20T01:38:12.838Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b914149113e28a4e85b5",
+          "name": "Natural",
+          "description": "Nature lovers and hikers",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/45848/kumamoto-japan-aso-cloud-45848.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:56.799Z",
+          "updatedAt": "2026-02-20T01:38:13.346Z",
+          "__v": 1
+        }
+      ],
+      "createdAt": "2026-02-20T01:38:08.673Z",
+      "updatedAt": "2026-02-20T01:38:14.500Z",
+      "__v": 1
+    },
+    {
+      "_id": "6997bb01e30bfea2cd061f8e",
+      "alias": "Bob",
+      "avatar": "https://i.pravatar.cc/150?u=Bob",
+      "handle": "@bob",
+      "status": "away",
+      "frequency": "The Dorms",
+      "joinedRooms": [
+        {
+          "_id": "6997b912149113e28a4e8590",
+          "name": "CS Nerd",
+          "description": "For all things computer science",
+          "category": "tech",
+          "image": "https://images.pexels.com/photos/538694/pexels-photo-538694.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:54.917Z",
+          "updatedAt": "2026-02-20T01:38:10.364Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b913149113e28a4e859a",
+          "name": "Sport Enthusiastic",
+          "description": "Discussing all sports",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/972513/pexels-photo-972513.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:55.398Z",
+          "updatedAt": "2026-02-20T01:38:11.125Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b913149113e28a4e85a3",
+          "name": "Cinemaan",
+          "description": "Movie buffs unite",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:55.882Z",
+          "updatedAt": "2026-02-20T01:38:11.958Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b914149113e28a4e85ac",
+          "name": "Photogenic",
+          "description": "Photography tips and sharing",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/68550/thailand-elephant-sunset-nature-68550.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:56.375Z",
+          "updatedAt": "2026-02-20T01:38:12.838Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b914149113e28a4e85b5",
+          "name": "Natural",
+          "description": "Nature lovers and hikers",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/45848/kumamoto-japan-aso-cloud-45848.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:56.799Z",
+          "updatedAt": "2026-02-20T01:38:13.346Z",
+          "__v": 1
+        }
+      ],
+      "createdAt": "2026-02-20T01:38:09.160Z",
+      "updatedAt": "2026-02-20T01:38:14.996Z",
+      "__v": 1
+    },
+    {
+      "_id": "6997bb01e30bfea2cd061f91",
+      "alias": "Charlie",
+      "avatar": "https://i.pravatar.cc/150?u=Charlie",
+      "handle": "@charlie",
+      "status": "offline",
+      "frequency": "Arts District",
+      "joinedRooms": [
+        {
+          "_id": "6997b912149113e28a4e8590",
+          "name": "CS Nerd",
+          "description": "For all things computer science",
+          "category": "tech",
+          "image": "https://images.pexels.com/photos/538694/pexels-photo-538694.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:54.917Z",
+          "updatedAt": "2026-02-20T01:38:10.364Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b913149113e28a4e859a",
+          "name": "Sport Enthusiastic",
+          "description": "Discussing all sports",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/972513/pexels-photo-972513.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:55.398Z",
+          "updatedAt": "2026-02-20T01:38:11.125Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b913149113e28a4e85a3",
+          "name": "Cinemaan",
+          "description": "Movie buffs unite",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:55.882Z",
+          "updatedAt": "2026-02-20T01:38:11.958Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b914149113e28a4e85ac",
+          "name": "Photogenic",
+          "description": "Photography tips and sharing",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/68550/thailand-elephant-sunset-nature-68550.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:56.375Z",
+          "updatedAt": "2026-02-20T01:38:12.838Z",
+          "__v": 1
+        },
+        {
+          "_id": "6997b914149113e28a4e85b5",
+          "name": "Natural",
+          "description": "Nature lovers and hikers",
+          "category": "social",
+          "image": "https://images.pexels.com/photos/45848/kumamoto-japan-aso-cloud-45848.jpeg",
+          "tags": [],
+          "isPrivate": false,
+          "createdBy": "6997b912149113e28a4e858d",
+          "admins": [
+            "6997b912149113e28a4e858d"
+          ],
+          "members": [
+            "6997b912149113e28a4e858d",
+            "6997bb00e30bfea2cd061f8a",
+            "6997bb01e30bfea2cd061f8e",
+            "6997bb01e30bfea2cd061f91"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-20T01:29:56.799Z",
+          "updatedAt": "2026-02-20T01:38:13.346Z",
+          "__v": 1
+        }
+      ],
+      "createdAt": "2026-02-20T01:38:09.644Z",
+      "updatedAt": "2026-02-20T01:38:15.402Z",
+      "__v": 1
+    },
+    {
+      "_id": "699d3c39382313cc06029a78",
+      "alias": "Digital_Echo",
+      "avatar": "",
+      "handle": "@digital_echo",
+      "status": "offline",
+      "frequency": "Main Campus",
+      "joinedRooms": [],
+      "createdAt": "2026-02-24T05:50:49.148Z",
+      "updatedAt": "2026-02-24T05:51:36.716Z",
+      "__v": 0
+    },
+    {
+      "_id": "699e8ffc9eff3010baa66794",
+      "alias": "hyperajj",
+      "avatar": "",
+      "handle": "@hyperajj",
+      "status": "online",
+      "frequency": "Main Campus",
+      "joinedRooms": [],
+      "createdAt": "2026-02-25T06:00:28.048Z",
+      "updatedAt": "2026-02-25T06:00:28.611Z",
+      "__v": 0
+    },
+    {
+      "_id": "699e9156c7480a53cae7d685",
+      "alias": "choot_ka_parinda_aman_darinda",
+      "avatar": "",
+      "handle": "@choot_ka_parinda_aman_darinda",
+      "status": "offline",
+      "frequency": "Main Campus",
+      "joinedRooms": [],
+      "createdAt": "2026-02-25T06:06:14.165Z",
+      "updatedAt": "2026-02-25T06:06:18.273Z",
+      "__v": 0
+    },
+    {
+      "_id": "699e9aab84924e7218c99e7e",
+      "alias": "new_user",
+      "avatar": "",
+      "handle": "@new_user",
+      "status": "offline",
+      "frequency": "Main Campus",
+      "joinedRooms": [
+        {
+          "_id": "69966c2d2212ebf612d331c6",
+          "name": "college_ki_chugli",
+          "description": "chugli hai bhai sahab",
+          "category": "tech",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldT_rjhSrjHafvxVebahT0gy8S_tx1RYbMw&s",
+          "tags": [
+            "tech"
+          ],
+          "isPrivate": false,
+          "createdBy": "69966a976ba90c5499a815b8",
+          "members": [
+            "699e9aab84924e7218c99e7e"
+          ],
+          "onlineCount": 0,
+          "createdAt": "2026-02-19T01:49:33.346Z",
+          "updatedAt": "2026-02-25T06:46:24.529Z",
+          "__v": 4,
+          "admins": []
+        }
+      ],
+      "createdAt": "2026-02-25T06:46:03.732Z",
+      "updatedAt": "2026-02-25T06:46:50.949Z",
+      "__v": 0
+    }
+  ],
+  "rooms": [
+    {
+      "_id": "69966c2d2212ebf612d331c6",
+      "name": "college_ki_chugli",
+      "description": "chugli hai bhai sahab",
+      "category": "tech",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldT_rjhSrjHafvxVebahT0gy8S_tx1RYbMw&s",
+      "tags": [
+        "tech"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "69966a976ba90c5499a815b8",
+        "alias": "Anonymous_Badger",
+        "avatar": "",
+        "handle": "@anonymous_badger"
+      },
+      "members": [
+        {
+          "_id": "699e9aab84924e7218c99e7e",
+          "alias": "new_user",
+          "avatar": "",
+          "handle": "@new_user"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-19T01:49:33.346Z",
+      "updatedAt": "2026-02-25T06:46:24.529Z",
+      "__v": 4,
+      "admins": []
+    },
+    {
+      "_id": "6997b912149113e28a4e8590",
+      "name": "CS Nerd",
+      "description": "For all things computer science",
+      "category": "tech",
+      "image": "https://images.pexels.com/photos/538694/pexels-photo-538694.jpeg",
+      "tags": [],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-20T01:29:54.917Z",
+      "updatedAt": "2026-02-20T01:38:10.364Z",
+      "__v": 1
+    },
+    {
+      "_id": "6997b913149113e28a4e859a",
+      "name": "Sport Enthusiastic",
+      "description": "Discussing all sports",
+      "category": "social",
+      "image": "https://images.pexels.com/photos/972513/pexels-photo-972513.jpeg",
+      "tags": [],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-20T01:29:55.398Z",
+      "updatedAt": "2026-02-20T01:38:11.125Z",
+      "__v": 1
+    },
+    {
+      "_id": "6997b913149113e28a4e85a3",
+      "name": "Cinemaan",
+      "description": "Movie buffs unite",
+      "category": "social",
+      "image": "https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg",
+      "tags": [],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-20T01:29:55.882Z",
+      "updatedAt": "2026-02-20T01:38:11.958Z",
+      "__v": 1
+    },
+    {
+      "_id": "6997b914149113e28a4e85ac",
+      "name": "Photogenic",
+      "description": "Photography tips and sharing",
+      "category": "social",
+      "image": "https://images.pexels.com/photos/68550/thailand-elephant-sunset-nature-68550.jpeg",
+      "tags": [],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-20T01:29:56.375Z",
+      "updatedAt": "2026-02-20T01:38:12.838Z",
+      "__v": 1
+    },
+    {
+      "_id": "6997b914149113e28a4e85b5",
+      "name": "Natural",
+      "description": "Nature lovers and hikers",
+      "category": "social",
+      "image": "https://images.pexels.com/photos/45848/kumamoto-japan-aso-cloud-45848.jpeg",
+      "tags": [],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-20T01:29:56.799Z",
+      "updatedAt": "2026-02-20T01:38:13.346Z",
+      "__v": 1
+    },
+    {
+      "_id": "699f128851b5a6c4035c1339",
+      "name": "Secret Confessions",
+      "description": "Share your anonymous confessions — no judgment, only whispers.",
+      "category": "confessions",
+      "image": "https://images.pexels.com/photos/267961/pexels-photo-267961.jpeg",
+      "tags": [
+        "confessions",
+        "anonymous",
+        "secrets"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:28.898Z",
+      "updatedAt": "2026-02-25T15:17:28.898Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128a51b5a6c4035c1345",
+      "name": "Exam Confessions",
+      "description": "The funniest and most relatable exam-day disasters.",
+      "category": "confessions",
+      "image": "https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg",
+      "tags": [
+        "confessions",
+        "exams"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:30.579Z",
+      "updatedAt": "2026-02-25T15:17:30.579Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128b51b5a6c4035c134e",
+      "name": "Valorant Addicts",
+      "description": "Strategies, clutches, and late-night gaming sessions.",
+      "category": "gaming",
+      "image": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg",
+      "tags": [
+        "gaming",
+        "valorant",
+        "fps"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:31.623Z",
+      "updatedAt": "2026-02-25T15:17:31.623Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128d51b5a6c4035c135b",
+      "name": "Chess Club",
+      "description": "Openings, endgames, and friendly matches.",
+      "category": "gaming",
+      "image": "https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg",
+      "tags": [
+        "gaming",
+        "chess",
+        "strategy"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:33.371Z",
+      "updatedAt": "2026-02-25T15:17:33.371Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128e51b5a6c4035c1364",
+      "name": "Finals Study Group",
+      "description": "Collaborative study sessions for upcoming finals.",
+      "category": "study",
+      "image": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg",
+      "tags": [
+        "study",
+        "finals",
+        "exams"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:34.017Z",
+      "updatedAt": "2026-02-25T15:17:34.017Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128f51b5a6c4035c136f",
+      "name": "DSA Grind",
+      "description": "Daily coding problems and interview prep together.",
+      "category": "study",
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+      "tags": [
+        "study",
+        "dsa",
+        "coding"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:35.698Z",
+      "updatedAt": "2026-02-25T15:17:35.698Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129151b5a6c4035c137a",
+      "name": "Academic Help Desk",
+      "description": "Ask doubts freely — no question is too basic here.",
+      "category": "academic",
+      "image": "https://images.pexels.com/photos/5553050/pexels-photo-5553050.jpeg",
+      "tags": [
+        "academic",
+        "help",
+        "doubts"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:37.337Z",
+      "updatedAt": "2026-02-25T15:17:37.337Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129251b5a6c4035c1383",
+      "name": "Robotics Club",
+      "description": "Building bots, breaking things, and having fun.",
+      "category": "clubs",
+      "image": "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg",
+      "tags": [
+        "clubs",
+        "robotics",
+        "engineering"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:38.896Z",
+      "updatedAt": "2026-02-25T15:17:38.896Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129351b5a6c4035c138c",
+      "name": "Debate Society",
+      "description": "Sharpen your arguments and win with words.",
+      "category": "clubs",
+      "image": "https://images.pexels.com/photos/8761542/pexels-photo-8761542.jpeg",
+      "tags": [
+        "clubs",
+        "debate",
+        "speaking"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:39.721Z",
+      "updatedAt": "2026-02-25T15:17:39.721Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129451b5a6c4035c1397",
+      "name": "Meme Central",
+      "description": "The dankest campus memes — post, laugh, repeat.",
+      "category": "memes",
+      "image": "https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg",
+      "tags": [
+        "memes",
+        "funny",
+        "humor"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:40.454Z",
+      "updatedAt": "2026-02-25T15:17:40.454Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129551b5a6c4035c13a2",
+      "name": "Prof Memes",
+      "description": "When profs become accidental comedians.",
+      "category": "memes",
+      "image": "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg",
+      "tags": [
+        "memes",
+        "professors",
+        "relatable"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:41.464Z",
+      "updatedAt": "2026-02-25T15:17:41.464Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129651b5a6c4035c13ab",
+      "name": "Campus Cricket",
+      "description": "Match updates, teams, and weekend cricket sessions.",
+      "category": "sports",
+      "image": "https://images.pexels.com/photos/3628912/pexels-photo-3628912.jpeg",
+      "tags": [
+        "sports",
+        "cricket"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:42.840Z",
+      "updatedAt": "2026-02-25T15:17:42.840Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129751b5a6c4035c13b4",
+      "name": "Football Fanatics",
+      "description": "Campus league, fantasy football, everything footy.",
+      "category": "sports",
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg",
+      "tags": [
+        "sports",
+        "football"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:43.725Z",
+      "updatedAt": "2026-02-25T15:17:43.725Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129851b5a6c4035c13bd",
+      "name": "Gym & Fitness",
+      "description": "Workout tips, gym buddies, and fitness challenges.",
+      "category": "sports",
+      "image": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
+      "tags": [
+        "sports",
+        "fitness",
+        "gym"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:44.852Z",
+      "updatedAt": "2026-02-25T15:17:44.852Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129951b5a6c4035c13c8",
+      "name": "Music Lounge",
+      "description": "Share tracks, discover artists, jam together.",
+      "category": "music",
+      "image": "https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg",
+      "tags": [
+        "music",
+        "songs",
+        "artists"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:45.907Z",
+      "updatedAt": "2026-02-25T15:17:45.907Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129a51b5a6c4035c13d3",
+      "name": "Campus Bands",
+      "description": "Looking for bandmates or promoting gigs.",
+      "category": "music",
+      "image": "https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg",
+      "tags": [
+        "music",
+        "bands",
+        "live"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:46.827Z",
+      "updatedAt": "2026-02-25T15:17:46.827Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129c51b5a6c4035c13dc",
+      "name": "Safe Space",
+      "description": "Talk about stress, anxiety, or anything — we listen.",
+      "category": "mental-health",
+      "image": "https://images.pexels.com/photos/3760607/pexels-photo-3760607.jpeg",
+      "tags": [
+        "mental-health",
+        "support",
+        "wellness"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:48.018Z",
+      "updatedAt": "2026-02-25T15:17:48.018Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129d51b5a6c4035c13e7",
+      "name": "Stress Busters",
+      "description": "Share what helps you unwind during tough times.",
+      "category": "mental-health",
+      "image": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg",
+      "tags": [
+        "mental-health",
+        "relaxation",
+        "self-care"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:49.214Z",
+      "updatedAt": "2026-02-25T15:17:49.214Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129d51b5a6c4035c13f2",
+      "name": "Book Exchange",
+      "description": "Buy, sell, or exchange textbooks and novels.",
+      "category": "marketplace",
+      "image": "https://images.pexels.com/photos/1370298/pexels-photo-1370298.jpeg",
+      "tags": [
+        "marketplace",
+        "books",
+        "exchange"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:49.763Z",
+      "updatedAt": "2026-02-25T15:17:49.763Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129e51b5a6c4035c13fb",
+      "name": "Gadget Deals",
+      "description": "Second-hand laptops, phones, and accessories.",
+      "category": "marketplace",
+      "image": "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg",
+      "tags": [
+        "marketplace",
+        "gadgets",
+        "deals"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:50.531Z",
+      "updatedAt": "2026-02-25T15:17:50.531Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129f51b5a6c4035c1404",
+      "name": "Fest Season",
+      "description": "Upcoming college fests, hackathons, and cultural events.",
+      "category": "events",
+      "image": "https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg",
+      "tags": [
+        "events",
+        "fest",
+        "hackathon"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:51.126Z",
+      "updatedAt": "2026-02-25T15:17:51.126Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a051b5a6c4035c140f",
+      "name": "Workshop Alerts",
+      "description": "Free workshops, webinars, and certification opportunities.",
+      "category": "events",
+      "image": "https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg",
+      "tags": [
+        "events",
+        "workshop",
+        "learning"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:52.246Z",
+      "updatedAt": "2026-02-25T15:17:52.246Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a151b5a6c4035c141a",
+      "name": "Placement Prep",
+      "description": "Interview tips, resume reviews, and placement stories.",
+      "category": "careers",
+      "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+      "tags": [
+        "careers",
+        "placements",
+        "interviews"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:53.233Z",
+      "updatedAt": "2026-02-25T15:17:53.233Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a251b5a6c4035c1425",
+      "name": "Internship Hunt",
+      "description": "Share openings, referrals, and application tips.",
+      "category": "careers",
+      "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+      "tags": [
+        "careers",
+        "internships",
+        "jobs"
+      ],
+      "isPrivate": false,
+      "createdBy": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "admins": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        }
+      ],
+      "members": [
+        {
+          "_id": "6997b912149113e28a4e858d",
+          "alias": "TempUser",
+          "avatar": "",
+          "handle": "@tempuser"
+        },
+        {
+          "_id": "6997bb00e30bfea2cd061f8a",
+          "alias": "Alice",
+          "avatar": "https://i.pravatar.cc/150?u=Alice",
+          "handle": "@alice"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f8e",
+          "alias": "Bob",
+          "avatar": "https://i.pravatar.cc/150?u=Bob",
+          "handle": "@bob"
+        },
+        {
+          "_id": "6997bb01e30bfea2cd061f91",
+          "alias": "Charlie",
+          "avatar": "https://i.pravatar.cc/150?u=Charlie",
+          "handle": "@charlie"
+        }
+      ],
+      "onlineCount": 0,
+      "createdAt": "2026-02-25T15:17:54.185Z",
+      "updatedAt": "2026-02-25T15:17:54.185Z",
+      "__v": 0
+    }
+  ],
+  "messages": [
+    {
+      "_id": "69966d4f2212ebf612d331e7",
+      "room": {
+        "_id": "69966c2d2212ebf612d331c6",
+        "name": "college_ki_chugli",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "69966a976ba90c5499a815b8",
+        "alias": "Anonymous_Badger",
+        "avatar": "",
+        "handle": "@anonymous_badger"
+      },
+      "userName": "Anonymous_Badger",
+      "userAvatar": "",
+      "content": "hey",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-19T01:54:23.481Z",
+      "updatedAt": "2026-02-19T01:54:23.481Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b912149113e28a4e8592",
+      "room": {
+        "_id": "6997b912149113e28a4e8590",
+        "name": "CS Nerd",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Has anyone tried the new React compiler?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:54.982Z",
+      "updatedAt": "2026-02-20T01:29:54.982Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b913149113e28a4e8594",
+      "room": {
+        "_id": "6997b912149113e28a4e8590",
+        "name": "CS Nerd",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "I'm stuck on this binary tree problem.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:55.110Z",
+      "updatedAt": "2026-02-20T01:29:55.110Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b913149113e28a4e8596",
+      "room": {
+        "_id": "6997b912149113e28a4e8590",
+        "name": "CS Nerd",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Vim or Emacs? Let the war begin!",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:55.234Z",
+      "updatedAt": "2026-02-20T01:29:55.234Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b913149113e28a4e859c",
+      "room": {
+        "_id": "6997b913149113e28a4e859a",
+        "name": "Sport Enthusiastic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Did you see the game last night?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:55.481Z",
+      "updatedAt": "2026-02-20T01:29:55.481Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b913149113e28a4e859e",
+      "room": {
+        "_id": "6997b913149113e28a4e859a",
+        "name": "Sport Enthusiastic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Anyone up for a pickup basketball game?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:55.553Z",
+      "updatedAt": "2026-02-20T01:29:55.553Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b913149113e28a4e85a0",
+      "room": {
+        "_id": "6997b913149113e28a4e859a",
+        "name": "Sport Enthusiastic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Looking for a gym buddy.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:55.635Z",
+      "updatedAt": "2026-02-20T01:29:55.635Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b914149113e28a4e85a5",
+      "room": {
+        "_id": "6997b913149113e28a4e85a3",
+        "name": "Cinemaan",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "The cinematography in Dune was amazing.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:56.012Z",
+      "updatedAt": "2026-02-20T01:29:56.012Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b914149113e28a4e85a7",
+      "room": {
+        "_id": "6997b913149113e28a4e85a3",
+        "name": "Cinemaan",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "What's your favorite Hitchcock film?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:56.062Z",
+      "updatedAt": "2026-02-20T01:29:56.062Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b914149113e28a4e85a9",
+      "room": {
+        "_id": "6997b913149113e28a4e85a3",
+        "name": "Cinemaan",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Just watched Everything Everywhere All At Once.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:56.148Z",
+      "updatedAt": "2026-02-20T01:29:56.148Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b914149113e28a4e85ae",
+      "room": {
+        "_id": "6997b914149113e28a4e85ac",
+        "name": "Photogenic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Best settings for night photography?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:56.458Z",
+      "updatedAt": "2026-02-20T01:29:56.458Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b914149113e28a4e85b0",
+      "room": {
+        "_id": "6997b914149113e28a4e85ac",
+        "name": "Photogenic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Canon vs Sony?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:56.540Z",
+      "updatedAt": "2026-02-20T01:29:56.540Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b914149113e28a4e85b2",
+      "room": {
+        "_id": "6997b914149113e28a4e85ac",
+        "name": "Photogenic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Check out this shot I took at the park.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:56.627Z",
+      "updatedAt": "2026-02-20T01:29:56.627Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b914149113e28a4e85b7",
+      "room": {
+        "_id": "6997b914149113e28a4e85b5",
+        "name": "Natural",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "The hiking trails are beautiful this time of year.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:56.869Z",
+      "updatedAt": "2026-02-20T01:29:56.869Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b914149113e28a4e85b9",
+      "room": {
+        "_id": "6997b914149113e28a4e85b5",
+        "name": "Natural",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Saw a deer on my morning run.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:56.964Z",
+      "updatedAt": "2026-02-20T01:29:56.964Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997b915149113e28a4e85bb",
+      "room": {
+        "_id": "6997b914149113e28a4e85b5",
+        "name": "Natural",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Anyone know a good camping spot nearby?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:29:57.281Z",
+      "updatedAt": "2026-02-20T01:29:57.281Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb02e30bfea2cd061f96",
+      "room": {
+        "_id": "6997b912149113e28a4e8590",
+        "name": "CS Nerd",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Has anyone tried the new React compiler?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:10.640Z",
+      "updatedAt": "2026-02-20T01:38:10.640Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb02e30bfea2cd061f98",
+      "room": {
+        "_id": "6997b912149113e28a4e8590",
+        "name": "CS Nerd",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Yes! It's super fast, effectively removes the need for useMemo.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:10.715Z",
+      "updatedAt": "2026-02-20T01:38:10.715Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb02e30bfea2cd061f9a",
+      "room": {
+        "_id": "6997b912149113e28a4e8590",
+        "name": "CS Nerd",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "I'm still skeptical. Does it handle complex dependency arrays correctly?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:10.813Z",
+      "updatedAt": "2026-02-20T01:38:10.813Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb02e30bfea2cd061f9c",
+      "room": {
+        "_id": "6997b912149113e28a4e8590",
+        "name": "CS Nerd",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "From what I've seen, it's pretty solid. Just requires a build step.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:10.878Z",
+      "updatedAt": "2026-02-20T01:38:10.878Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb02e30bfea2cd061f9e",
+      "room": {
+        "_id": "6997b912149113e28a4e8590",
+        "name": "CS Nerd",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Exactly. The optimization gains are worth the setup.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:10.967Z",
+      "updatedAt": "2026-02-20T01:38:10.967Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb03e30bfea2cd061fa3",
+      "room": {
+        "_id": "6997b913149113e28a4e859a",
+        "name": "Sport Enthusiastic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Did you see the game last night?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:11.393Z",
+      "updatedAt": "2026-02-20T01:38:11.393Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb03e30bfea2cd061fa5",
+      "room": {
+        "_id": "6997b913149113e28a4e859a",
+        "name": "Sport Enthusiastic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Yeah, that last-minute goal was insane!",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:11.453Z",
+      "updatedAt": "2026-02-20T01:38:11.453Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb03e30bfea2cd061fa7",
+      "room": {
+        "_id": "6997b913149113e28a4e859a",
+        "name": "Sport Enthusiastic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "I missed it! Who won?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:11.555Z",
+      "updatedAt": "2026-02-20T01:38:11.555Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb03e30bfea2cd061fa9",
+      "room": {
+        "_id": "6997b913149113e28a4e859a",
+        "name": "Sport Enthusiastic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Real Madrid, strictly on vibes as usual.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:11.705Z",
+      "updatedAt": "2026-02-20T01:38:11.705Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb03e30bfea2cd061fab",
+      "room": {
+        "_id": "6997b913149113e28a4e859a",
+        "name": "Sport Enthusiastic",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Typical. I need to catch the highlights.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:11.782Z",
+      "updatedAt": "2026-02-20T01:38:11.782Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb04e30bfea2cd061fb0",
+      "room": {
+        "_id": "6997b913149113e28a4e85a3",
+        "name": "Cinemaan",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "The cinematography in Dune was amazing.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:12.111Z",
+      "updatedAt": "2026-02-20T01:38:12.111Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb04e30bfea2cd061fb2",
+      "room": {
+        "_id": "6997b913149113e28a4e85a3",
+        "name": "Cinemaan",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Agreed. Denis Villeneuve is a master of scale.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:12.204Z",
+      "updatedAt": "2026-02-20T01:38:12.204Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb04e30bfea2cd061fb4",
+      "room": {
+        "_id": "6997b913149113e28a4e85a3",
+        "name": "Cinemaan",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "I felt the pacing was a bit slow in the middle though.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:12.275Z",
+      "updatedAt": "2026-02-20T01:38:12.275Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb04e30bfea2cd061fb6",
+      "room": {
+        "_id": "6997b913149113e28a4e85a3",
+        "name": "Cinemaan",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "That's fair, but it builds the atmosphere perfectly.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:12.513Z",
+      "updatedAt": "2026-02-20T01:38:12.513Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb05e30bfea2cd061fbe",
+      "room": {
+        "_id": "6997b914149113e28a4e85b5",
+        "name": "Natural",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "The hiking trails are beautiful this time of year.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:13.510Z",
+      "updatedAt": "2026-02-20T01:38:13.510Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb05e30bfea2cd061fc0",
+      "room": {
+        "_id": "6997b914149113e28a4e85b5",
+        "name": "Natural",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Saw a deer on my morning run.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:13.746Z",
+      "updatedAt": "2026-02-20T01:38:13.746Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb05e30bfea2cd061fc2",
+      "room": {
+        "_id": "6997b914149113e28a4e85b5",
+        "name": "Natural",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Anyone know a good camping spot nearby?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:13.845Z",
+      "updatedAt": "2026-02-20T01:38:13.845Z",
+      "__v": 0
+    },
+    {
+      "_id": "6997bb05e30bfea2cd061fc4",
+      "room": {
+        "_id": "6997b914149113e28a4e85b5",
+        "name": "Natural",
+        "category": "social"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Try the state park north of the campus, it's quiet on weekdays.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-20T01:38:13.921Z",
+      "updatedAt": "2026-02-20T01:38:13.921Z",
+      "__v": 0
+    },
+    {
+      "_id": "699d3c53382313cc06029aa5",
+      "room": {
+        "_id": "69966c2d2212ebf612d331c6",
+        "name": "college_ki_chugli",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "699d3c39382313cc06029a78",
+        "alias": "Digital_Echo",
+        "avatar": "",
+        "handle": "@digital_echo"
+      },
+      "userName": "Digital_Echo",
+      "userAvatar": "",
+      "content": "hey",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-24T05:51:15.849Z",
+      "updatedAt": "2026-02-24T05:51:15.849Z",
+      "__v": 0
+    },
+    {
+      "_id": "699d3c59382313cc06029aa9",
+      "room": {
+        "_id": "69966c2d2212ebf612d331c6",
+        "name": "college_ki_chugli",
+        "category": "tech"
+      },
+      "userId": {
+        "_id": "69966a976ba90c5499a815b8",
+        "alias": "Anonymous_Badger",
+        "avatar": "",
+        "handle": "@anonymous_badger"
+      },
+      "userName": "Anonymous_Badger",
+      "userAvatar": "",
+      "content": "folow",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-24T05:51:21.600Z",
+      "updatedAt": "2026-02-24T05:51:21.600Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128851b5a6c4035c133b",
+      "room": {
+        "_id": "699f128851b5a6c4035c1339",
+        "name": "Secret Confessions",
+        "category": "confessions"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "I once submitted the wrong assignment and still got an A. Guilt is real.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:28.953Z",
+      "updatedAt": "2026-02-25T15:17:28.953Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128951b5a6c4035c133e",
+      "room": {
+        "_id": "699f128851b5a6c4035c1339",
+        "name": "Secret Confessions",
+        "category": "confessions"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "I pretend to understand the lecture and Google everything later.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:29.050Z",
+      "updatedAt": "2026-02-25T15:17:29.050Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128951b5a6c4035c1340",
+      "room": {
+        "_id": "699f128851b5a6c4035c1339",
+        "name": "Secret Confessions",
+        "category": "confessions"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "I have eaten mess food and actually liked it once. Don't judge me.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:29.184Z",
+      "updatedAt": "2026-02-25T15:17:29.184Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128a51b5a6c4035c1342",
+      "room": {
+        "_id": "699f128851b5a6c4035c1339",
+        "name": "Secret Confessions",
+        "category": "confessions"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "I skipped an exam thinking it was optional... it wasn't.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:30.103Z",
+      "updatedAt": "2026-02-25T15:17:30.103Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128a51b5a6c4035c1347",
+      "room": {
+        "_id": "699f128a51b5a6c4035c1345",
+        "name": "Exam Confessions",
+        "category": "confessions"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Wrote the perfect answer... on the wrong question.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:30.710Z",
+      "updatedAt": "2026-02-25T15:17:30.710Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128b51b5a6c4035c1349",
+      "room": {
+        "_id": "699f128a51b5a6c4035c1345",
+        "name": "Exam Confessions",
+        "category": "confessions"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "I studied the entire syllabus except the one topic that came for 30 marks.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:31.001Z",
+      "updatedAt": "2026-02-25T15:17:31.001Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128b51b5a6c4035c134b",
+      "room": {
+        "_id": "699f128a51b5a6c4035c1345",
+        "name": "Exam Confessions",
+        "category": "confessions"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "My pen ran out of ink mid-exam. Used a borrowed pencil. Got 2 marks less for \"readability\".",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:31.198Z",
+      "updatedAt": "2026-02-25T15:17:31.198Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128b51b5a6c4035c1350",
+      "room": {
+        "_id": "699f128b51b5a6c4035c134e",
+        "name": "Valorant Addicts",
+        "category": "gaming"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Clutched a 1v4 with Jett last night, hands were literally shaking.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:31.682Z",
+      "updatedAt": "2026-02-25T15:17:31.682Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128b51b5a6c4035c1352",
+      "room": {
+        "_id": "699f128b51b5a6c4035c134e",
+        "name": "Valorant Addicts",
+        "category": "gaming"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Nice! I'm stuck in Gold forever though.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:31.767Z",
+      "updatedAt": "2026-02-25T15:17:31.767Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128b51b5a6c4035c1354",
+      "room": {
+        "_id": "699f128b51b5a6c4035c134e",
+        "name": "Valorant Addicts",
+        "category": "gaming"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Anyone up for a 5-stack tonight? Need a Sentinel main.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:31.848Z",
+      "updatedAt": "2026-02-25T15:17:31.848Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128b51b5a6c4035c1356",
+      "room": {
+        "_id": "699f128b51b5a6c4035c134e",
+        "name": "Valorant Addicts",
+        "category": "gaming"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "I just started playing, any tips for beginners?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:31.942Z",
+      "updatedAt": "2026-02-25T15:17:31.942Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128c51b5a6c4035c1358",
+      "room": {
+        "_id": "699f128b51b5a6c4035c134e",
+        "name": "Valorant Addicts",
+        "category": "gaming"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Crosshair placement is everything. Keep it at head level always.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:32.370Z",
+      "updatedAt": "2026-02-25T15:17:32.370Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128d51b5a6c4035c135d",
+      "room": {
+        "_id": "699f128d51b5a6c4035c135b",
+        "name": "Chess Club",
+        "category": "gaming"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Anyone else obsessed with the Queen's Gambit opening?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:33.469Z",
+      "updatedAt": "2026-02-25T15:17:33.469Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128d51b5a6c4035c135f",
+      "room": {
+        "_id": "699f128d51b5a6c4035c135b",
+        "name": "Chess Club",
+        "category": "gaming"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "I prefer the Sicilian Defense. Aggressive from move one.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:33.648Z",
+      "updatedAt": "2026-02-25T15:17:33.648Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128d51b5a6c4035c1361",
+      "room": {
+        "_id": "699f128d51b5a6c4035c135b",
+        "name": "Chess Club",
+        "category": "gaming"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Let's organize a campus chess tournament this month!",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:33.897Z",
+      "updatedAt": "2026-02-25T15:17:33.897Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128e51b5a6c4035c1366",
+      "room": {
+        "_id": "699f128e51b5a6c4035c1364",
+        "name": "Finals Study Group",
+        "category": "study"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Who has notes for Operating Systems? My notes are a disaster.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:34.274Z",
+      "updatedAt": "2026-02-25T15:17:34.274Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128e51b5a6c4035c1368",
+      "room": {
+        "_id": "699f128e51b5a6c4035c1364",
+        "name": "Finals Study Group",
+        "category": "study"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "I have good ones. Will share the drive link tonight.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:34.502Z",
+      "updatedAt": "2026-02-25T15:17:34.502Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128e51b5a6c4035c136a",
+      "room": {
+        "_id": "699f128e51b5a6c4035c1364",
+        "name": "Finals Study Group",
+        "category": "study"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Can we do a group study session in the library tomorrow?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:34.676Z",
+      "updatedAt": "2026-02-25T15:17:34.676Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128f51b5a6c4035c136c",
+      "room": {
+        "_id": "699f128e51b5a6c4035c1364",
+        "name": "Finals Study Group",
+        "category": "study"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Count me in. 5 PM works?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:35.132Z",
+      "updatedAt": "2026-02-25T15:17:35.132Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f128f51b5a6c4035c1371",
+      "room": {
+        "_id": "699f128f51b5a6c4035c136f",
+        "name": "DSA Grind",
+        "category": "study"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Solved my first hard problem on LeetCode today!",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:35.881Z",
+      "updatedAt": "2026-02-25T15:17:35.881Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129051b5a6c4035c1373",
+      "room": {
+        "_id": "699f128f51b5a6c4035c136f",
+        "name": "DSA Grind",
+        "category": "study"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Which one? I'm stuck on dynamic programming problems.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:36.003Z",
+      "updatedAt": "2026-02-25T15:17:36.003Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129051b5a6c4035c1375",
+      "room": {
+        "_id": "699f128f51b5a6c4035c136f",
+        "name": "DSA Grind",
+        "category": "study"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "It was \"Longest Increasing Subsequence\". DP is all about finding the subproblem.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:36.415Z",
+      "updatedAt": "2026-02-25T15:17:36.415Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129051b5a6c4035c1377",
+      "room": {
+        "_id": "699f128f51b5a6c4035c136f",
+        "name": "DSA Grind",
+        "category": "study"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "I recommend Striver's sheet — it builds concepts step by step.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:36.627Z",
+      "updatedAt": "2026-02-25T15:17:36.627Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129151b5a6c4035c137c",
+      "room": {
+        "_id": "699f129151b5a6c4035c137a",
+        "name": "Academic Help Desk",
+        "category": "academic"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Can someone explain Dijkstra's algorithm simply?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:37.800Z",
+      "updatedAt": "2026-02-25T15:17:37.800Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129251b5a6c4035c137e",
+      "room": {
+        "_id": "699f129151b5a6c4035c137a",
+        "name": "Academic Help Desk",
+        "category": "academic"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Think of it like finding the shortest route on Google Maps — it always picks the cheapest next step.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:38.198Z",
+      "updatedAt": "2026-02-25T15:17:38.198Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129251b5a6c4035c1380",
+      "room": {
+        "_id": "699f129151b5a6c4035c137a",
+        "name": "Academic Help Desk",
+        "category": "academic"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "That analogy is actually perfect! Greedy approach at each node.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:38.315Z",
+      "updatedAt": "2026-02-25T15:17:38.315Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129351b5a6c4035c1385",
+      "room": {
+        "_id": "699f129251b5a6c4035c1383",
+        "name": "Robotics Club",
+        "category": "clubs"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Our line follower bot finally works! Took 3 weeks of debugging.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:39.278Z",
+      "updatedAt": "2026-02-25T15:17:39.278Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129351b5a6c4035c1387",
+      "room": {
+        "_id": "699f129251b5a6c4035c1383",
+        "name": "Robotics Club",
+        "category": "clubs"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Nice! We're building a drone for the inter-college competition.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:39.496Z",
+      "updatedAt": "2026-02-25T15:17:39.496Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129351b5a6c4035c1389",
+      "room": {
+        "_id": "699f129251b5a6c4035c1383",
+        "name": "Robotics Club",
+        "category": "clubs"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Anyone know a good source for cheap servo motors?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:39.554Z",
+      "updatedAt": "2026-02-25T15:17:39.554Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129351b5a6c4035c138e",
+      "room": {
+        "_id": "699f129351b5a6c4035c138c",
+        "name": "Debate Society",
+        "category": "clubs"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "This week's topic: \"Should college attendance be mandatory?\" — I say absolutely not.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:39.814Z",
+      "updatedAt": "2026-02-25T15:17:39.814Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129351b5a6c4035c1390",
+      "room": {
+        "_id": "699f129351b5a6c4035c138c",
+        "name": "Debate Society",
+        "category": "clubs"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Counter: without mandatory attendance, most students won't show up at all.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:39.920Z",
+      "updatedAt": "2026-02-25T15:17:39.920Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129451b5a6c4035c1392",
+      "room": {
+        "_id": "699f129351b5a6c4035c138c",
+        "name": "Debate Society",
+        "category": "clubs"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Make the classes engaging and students will come voluntarily.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:40.071Z",
+      "updatedAt": "2026-02-25T15:17:40.071Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129451b5a6c4035c1394",
+      "room": {
+        "_id": "699f129351b5a6c4035c138c",
+        "name": "Debate Society",
+        "category": "clubs"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Facts. Nobody skips a good teacher's class.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:40.210Z",
+      "updatedAt": "2026-02-25T15:17:40.210Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129451b5a6c4035c1399",
+      "room": {
+        "_id": "699f129451b5a6c4035c1397",
+        "name": "Meme Central",
+        "category": "memes"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "When the prof says \"this won't come in the exam\" and it's 50% of the paper 💀",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:40.844Z",
+      "updatedAt": "2026-02-25T15:17:40.844Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129451b5a6c4035c139b",
+      "room": {
+        "_id": "699f129451b5a6c4035c1397",
+        "name": "Meme Central",
+        "category": "memes"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "My WiFi during online exams: \"Connection lost at crucial moment\" every single time.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:40.911Z",
+      "updatedAt": "2026-02-25T15:17:40.911Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129551b5a6c4035c139d",
+      "room": {
+        "_id": "699f129451b5a6c4035c1397",
+        "name": "Meme Central",
+        "category": "memes"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "College brochure: Modern labs with latest equipment. Reality: Windows XP and hope.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:41.038Z",
+      "updatedAt": "2026-02-25T15:17:41.038Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129551b5a6c4035c139f",
+      "room": {
+        "_id": "699f129451b5a6c4035c1397",
+        "name": "Meme Central",
+        "category": "memes"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "LMAO too real. The lab PCs take 10 minutes to boot.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:41.120Z",
+      "updatedAt": "2026-02-25T15:17:41.120Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129551b5a6c4035c13a4",
+      "room": {
+        "_id": "699f129551b5a6c4035c13a2",
+        "name": "Prof Memes",
+        "category": "memes"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Prof: \"Any questions?\" *moves to next slide in 0.3 seconds*",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:41.668Z",
+      "updatedAt": "2026-02-25T15:17:41.668Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129551b5a6c4035c13a6",
+      "room": {
+        "_id": "699f129551b5a6c4035c13a2",
+        "name": "Prof Memes",
+        "category": "memes"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "\"I'll let you go 5 minutes early\" — the biggest lie in academia.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:41.870Z",
+      "updatedAt": "2026-02-25T15:17:41.870Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129551b5a6c4035c13a8",
+      "room": {
+        "_id": "699f129551b5a6c4035c13a2",
+        "name": "Prof Memes",
+        "category": "memes"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "When the prof uses their own book as the textbook and tests from stuff not in it.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:41.967Z",
+      "updatedAt": "2026-02-25T15:17:41.967Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129751b5a6c4035c13ad",
+      "room": {
+        "_id": "699f129651b5a6c4035c13ab",
+        "name": "Campus Cricket",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Inter-department cricket starts next week. CSE vs Mech — who's winning?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:43.025Z",
+      "updatedAt": "2026-02-25T15:17:43.025Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129751b5a6c4035c13af",
+      "room": {
+        "_id": "699f129651b5a6c4035c13ab",
+        "name": "Campus Cricket",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "CSE boys are all-rounders... in coding, not cricket 😂",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:43.417Z",
+      "updatedAt": "2026-02-25T15:17:43.417Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129751b5a6c4035c13b1",
+      "room": {
+        "_id": "699f129651b5a6c4035c13ab",
+        "name": "Campus Cricket",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Don't underestimate us! We have a secret weapon this year.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:43.490Z",
+      "updatedAt": "2026-02-25T15:17:43.490Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129851b5a6c4035c13b6",
+      "room": {
+        "_id": "699f129751b5a6c4035c13b4",
+        "name": "Football Fanatics",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Sunday evening match on the main ground. 6v6, bring your own water.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:44.134Z",
+      "updatedAt": "2026-02-25T15:17:44.134Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129851b5a6c4035c13b8",
+      "room": {
+        "_id": "699f129751b5a6c4035c13b4",
+        "name": "Football Fanatics",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "I'll be there! Need more people for defense though.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:44.229Z",
+      "updatedAt": "2026-02-25T15:17:44.229Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129851b5a6c4035c13ba",
+      "room": {
+        "_id": "699f129751b5a6c4035c13b4",
+        "name": "Football Fanatics",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "I can play keeper. Just don't blame me if we concede 10.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:44.332Z",
+      "updatedAt": "2026-02-25T15:17:44.332Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129851b5a6c4035c13bf",
+      "room": {
+        "_id": "699f129851b5a6c4035c13bd",
+        "name": "Gym & Fitness",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Campus gym finally got new dumbbells! No more fighting over the 10kg ones.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:44.933Z",
+      "updatedAt": "2026-02-25T15:17:44.933Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129851b5a6c4035c13c1",
+      "room": {
+        "_id": "699f129851b5a6c4035c13bd",
+        "name": "Gym & Fitness",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Anyone want to start a morning workout group? 6 AM daily.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:44.987Z",
+      "updatedAt": "2026-02-25T15:17:44.987Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129951b5a6c4035c13c3",
+      "room": {
+        "_id": "699f129851b5a6c4035c13bd",
+        "name": "Gym & Fitness",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "6 AM? That's when I'm in my deepest REM sleep. How about 7?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:45.102Z",
+      "updatedAt": "2026-02-25T15:17:45.102Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129951b5a6c4035c13c5",
+      "room": {
+        "_id": "699f129851b5a6c4035c13bd",
+        "name": "Gym & Fitness",
+        "category": "sports"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "I'm in for 7. Need to get in shape before fest season.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:45.433Z",
+      "updatedAt": "2026-02-25T15:17:45.433Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129951b5a6c4035c13ca",
+      "room": {
+        "_id": "699f129951b5a6c4035c13c8",
+        "name": "Music Lounge",
+        "category": "music"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Just discovered this indie artist called Prateek Kuhad — absolute vibe.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:45.977Z",
+      "updatedAt": "2026-02-25T15:17:45.977Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129a51b5a6c4035c13cc",
+      "room": {
+        "_id": "699f129951b5a6c4035c13c8",
+        "name": "Music Lounge",
+        "category": "music"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Cold/Mess is a masterpiece. Also check out The Local Train.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:46.084Z",
+      "updatedAt": "2026-02-25T15:17:46.084Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129a51b5a6c4035c13ce",
+      "room": {
+        "_id": "699f129951b5a6c4035c13c8",
+        "name": "Music Lounge",
+        "category": "music"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Anyone here into lo-fi? Need study playlist recommendations.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:46.182Z",
+      "updatedAt": "2026-02-25T15:17:46.182Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129a51b5a6c4035c13d0",
+      "room": {
+        "_id": "699f129951b5a6c4035c13c8",
+        "name": "Music Lounge",
+        "category": "music"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "I'll share my 500+ track lo-fi playlist. It got me through finals.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:46.288Z",
+      "updatedAt": "2026-02-25T15:17:46.288Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129a51b5a6c4035c13d5",
+      "room": {
+        "_id": "699f129a51b5a6c4035c13d3",
+        "name": "Campus Bands",
+        "category": "music"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Looking for a drummer for our band. We play alternative rock.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:46.938Z",
+      "updatedAt": "2026-02-25T15:17:46.938Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129b51b5a6c4035c13d7",
+      "room": {
+        "_id": "699f129a51b5a6c4035c13d3",
+        "name": "Campus Bands",
+        "category": "music"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "I play drums! When's the audition?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:47.172Z",
+      "updatedAt": "2026-02-25T15:17:47.172Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129b51b5a6c4035c13d9",
+      "room": {
+        "_id": "699f129a51b5a6c4035c13d3",
+        "name": "Campus Bands",
+        "category": "music"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "This Saturday, music room, 4 PM. Bring sticks!",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:47.277Z",
+      "updatedAt": "2026-02-25T15:17:47.277Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129c51b5a6c4035c13de",
+      "room": {
+        "_id": "699f129c51b5a6c4035c13dc",
+        "name": "Safe Space",
+        "category": "mental-health"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Had a rough week. Assignments piling up and feeling overwhelmed.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:48.117Z",
+      "updatedAt": "2026-02-25T15:17:48.117Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129c51b5a6c4035c13e0",
+      "room": {
+        "_id": "699f129c51b5a6c4035c13dc",
+        "name": "Safe Space",
+        "category": "mental-health"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Been there. Take it one task at a time. You're doing better than you think.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:48.476Z",
+      "updatedAt": "2026-02-25T15:17:48.476Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129c51b5a6c4035c13e2",
+      "room": {
+        "_id": "699f129c51b5a6c4035c13dc",
+        "name": "Safe Space",
+        "category": "mental-health"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "The counseling center on campus is actually really helpful. No shame in going.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:48.704Z",
+      "updatedAt": "2026-02-25T15:17:48.704Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129c51b5a6c4035c13e4",
+      "room": {
+        "_id": "699f129c51b5a6c4035c13dc",
+        "name": "Safe Space",
+        "category": "mental-health"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Remember: your worth isn't defined by your GPA. Take breaks when needed.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:48.808Z",
+      "updatedAt": "2026-02-25T15:17:48.808Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129d51b5a6c4035c13e9",
+      "room": {
+        "_id": "699f129d51b5a6c4035c13e7",
+        "name": "Stress Busters",
+        "category": "mental-health"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Night walk around campus with earphones in — instant therapy.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:49.263Z",
+      "updatedAt": "2026-02-25T15:17:49.263Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129d51b5a6c4035c13eb",
+      "room": {
+        "_id": "699f129d51b5a6c4035c13e7",
+        "name": "Stress Busters",
+        "category": "mental-health"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "I journal before bed. Gets all the anxious thoughts out of my head.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:49.336Z",
+      "updatedAt": "2026-02-25T15:17:49.336Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129d51b5a6c4035c13ed",
+      "room": {
+        "_id": "699f129d51b5a6c4035c13e7",
+        "name": "Stress Busters",
+        "category": "mental-health"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Gaming for an hour after studying helps me reset completely.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:49.445Z",
+      "updatedAt": "2026-02-25T15:17:49.445Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129d51b5a6c4035c13ef",
+      "room": {
+        "_id": "699f129d51b5a6c4035c13e7",
+        "name": "Stress Busters",
+        "category": "mental-health"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Cooking maggi at 2 AM in the hostel kitchen is my stress buster 🍜",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:49.559Z",
+      "updatedAt": "2026-02-25T15:17:49.559Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129d51b5a6c4035c13f4",
+      "room": {
+        "_id": "699f129d51b5a6c4035c13f2",
+        "name": "Book Exchange",
+        "category": "marketplace"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Selling \"Introduction to Algorithms\" (CLRS) — barely used, ₹400.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:49.996Z",
+      "updatedAt": "2026-02-25T15:17:49.996Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129e51b5a6c4035c13f6",
+      "room": {
+        "_id": "699f129d51b5a6c4035c13f2",
+        "name": "Book Exchange",
+        "category": "marketplace"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "I need \"Digital Electronics\" by Morris Mano. Anyone selling?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:50.134Z",
+      "updatedAt": "2026-02-25T15:17:50.134Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129e51b5a6c4035c13f8",
+      "room": {
+        "_id": "699f129d51b5a6c4035c13f2",
+        "name": "Book Exchange",
+        "category": "marketplace"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "I have it! DM me. Also have Signals & Systems if anyone needs.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:50.285Z",
+      "updatedAt": "2026-02-25T15:17:50.285Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129e51b5a6c4035c13fd",
+      "room": {
+        "_id": "699f129e51b5a6c4035c13fb",
+        "name": "Gadget Deals",
+        "category": "marketplace"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Selling my old Logitech mouse — works perfectly, ₹500 only.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:50.593Z",
+      "updatedAt": "2026-02-25T15:17:50.593Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129e51b5a6c4035c13ff",
+      "room": {
+        "_id": "699f129e51b5a6c4035c13fb",
+        "name": "Gadget Deals",
+        "category": "marketplace"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Anyone selling a second-hand mechanical keyboard?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:50.687Z",
+      "updatedAt": "2026-02-25T15:17:50.687Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129e51b5a6c4035c1401",
+      "room": {
+        "_id": "699f129e51b5a6c4035c13fb",
+        "name": "Gadget Deals",
+        "category": "marketplace"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "I have a Redgear one, Cherry MX Blue switches. ₹1500, 6 months old.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:50.866Z",
+      "updatedAt": "2026-02-25T15:17:50.866Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129f51b5a6c4035c1406",
+      "room": {
+        "_id": "699f129f51b5a6c4035c1404",
+        "name": "Fest Season",
+        "category": "events"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "TechFest registrations open next Monday! Hackathon has ₹50K prize pool.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:51.468Z",
+      "updatedAt": "2026-02-25T15:17:51.468Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129f51b5a6c4035c1408",
+      "room": {
+        "_id": "699f129f51b5a6c4035c1404",
+        "name": "Fest Season",
+        "category": "events"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "I'm forming a team of 4 for the hackathon. Need a UI/UX person.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:51.580Z",
+      "updatedAt": "2026-02-25T15:17:51.580Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129f51b5a6c4035c140a",
+      "room": {
+        "_id": "699f129f51b5a6c4035c1404",
+        "name": "Fest Season",
+        "category": "events"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Cultural night lineup looks amazing this year — Nucleya is performing!",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:51.797Z",
+      "updatedAt": "2026-02-25T15:17:51.797Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f129f51b5a6c4035c140c",
+      "room": {
+        "_id": "699f129f51b5a6c4035c1404",
+        "name": "Fest Season",
+        "category": "events"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Already got my front-row wristband. This is going to be epic.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:51.951Z",
+      "updatedAt": "2026-02-25T15:17:51.951Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a051b5a6c4035c1411",
+      "room": {
+        "_id": "699f12a051b5a6c4035c140f",
+        "name": "Workshop Alerts",
+        "category": "events"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Free AWS Cloud workshop this Friday — certificates included.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:52.328Z",
+      "updatedAt": "2026-02-25T15:17:52.328Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a051b5a6c4035c1413",
+      "room": {
+        "_id": "699f12a051b5a6c4035c140f",
+        "name": "Workshop Alerts",
+        "category": "events"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "Google Developer Student Club is hosting a Flutter bootcamp next week.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:52.595Z",
+      "updatedAt": "2026-02-25T15:17:52.595Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a051b5a6c4035c1415",
+      "room": {
+        "_id": "699f12a051b5a6c4035c140f",
+        "name": "Workshop Alerts",
+        "category": "events"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Is the cybersecurity workshop by InfoSec club still happening?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:52.681Z",
+      "updatedAt": "2026-02-25T15:17:52.681Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a051b5a6c4035c1417",
+      "room": {
+        "_id": "699f12a051b5a6c4035c140f",
+        "name": "Workshop Alerts",
+        "category": "events"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Yes! Saturday 3 PM in Lab 5. Bring your laptop.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:52.751Z",
+      "updatedAt": "2026-02-25T15:17:52.751Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a151b5a6c4035c141c",
+      "room": {
+        "_id": "699f12a151b5a6c4035c141a",
+        "name": "Placement Prep",
+        "category": "careers"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "TCS NQT pattern changed this year. More focus on coding now.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:53.422Z",
+      "updatedAt": "2026-02-25T15:17:53.422Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a151b5a6c4035c141e",
+      "room": {
+        "_id": "699f12a151b5a6c4035c141a",
+        "name": "Placement Prep",
+        "category": "careers"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "For Infosys, practice pseudo code questions. They're tricky but doable.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:53.842Z",
+      "updatedAt": "2026-02-25T15:17:53.842Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a151b5a6c4035c1420",
+      "room": {
+        "_id": "699f12a151b5a6c4035c141a",
+        "name": "Placement Prep",
+        "category": "careers"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Anyone cleared Amazon OA? What topics should I focus on?",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:53.904Z",
+      "updatedAt": "2026-02-25T15:17:53.904Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a151b5a6c4035c1422",
+      "room": {
+        "_id": "699f12a151b5a6c4035c141a",
+        "name": "Placement Prep",
+        "category": "careers"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f91",
+        "alias": "Charlie",
+        "avatar": "https://i.pravatar.cc/150?u=Charlie",
+        "handle": "@charlie"
+      },
+      "userName": "Charlie",
+      "userAvatar": "https://i.pravatar.cc/150?u=Charlie",
+      "content": "Graphs, DP, and sliding window — those three cover 80% of Amazon questions.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:53.987Z",
+      "updatedAt": "2026-02-25T15:17:53.987Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a251b5a6c4035c1427",
+      "room": {
+        "_id": "699f12a251b5a6c4035c1425",
+        "name": "Internship Hunt",
+        "category": "careers"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Microsoft internship applications close this Friday — apply ASAP!",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:54.331Z",
+      "updatedAt": "2026-02-25T15:17:54.331Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a251b5a6c4035c1429",
+      "room": {
+        "_id": "699f12a251b5a6c4035c1425",
+        "name": "Internship Hunt",
+        "category": "careers"
+      },
+      "userId": {
+        "_id": "6997bb00e30bfea2cd061f8a",
+        "alias": "Alice",
+        "avatar": "https://i.pravatar.cc/150?u=Alice",
+        "handle": "@alice"
+      },
+      "userName": "Alice",
+      "userAvatar": "https://i.pravatar.cc/150?u=Alice",
+      "content": "I got a referral for Google STEP. Happy to share tips.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:54.511Z",
+      "updatedAt": "2026-02-25T15:17:54.511Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a251b5a6c4035c142b",
+      "room": {
+        "_id": "699f12a251b5a6c4035c1425",
+        "name": "Internship Hunt",
+        "category": "careers"
+      },
+      "userId": {
+        "_id": "6997bb01e30bfea2cd061f8e",
+        "alias": "Bob",
+        "avatar": "https://i.pravatar.cc/150?u=Bob",
+        "handle": "@bob"
+      },
+      "userName": "Bob",
+      "userAvatar": "https://i.pravatar.cc/150?u=Bob",
+      "content": "Any good internships for non-CS branches? Mech here.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:54.580Z",
+      "updatedAt": "2026-02-25T15:17:54.580Z",
+      "__v": 0
+    },
+    {
+      "_id": "699f12a251b5a6c4035c142d",
+      "room": {
+        "_id": "699f12a251b5a6c4035c1425",
+        "name": "Internship Hunt",
+        "category": "careers"
+      },
+      "userId": {
+        "_id": "6997b912149113e28a4e858d",
+        "alias": "TempUser",
+        "avatar": "",
+        "handle": "@tempuser"
+      },
+      "userName": "TempUser",
+      "userAvatar": "",
+      "content": "Check out Tata Motors and Bosch — they have solid mech internship programs.",
+      "type": "text",
+      "metadata": null,
+      "createdAt": "2026-02-25T15:17:54.971Z",
+      "updatedAt": "2026-02-25T15:17:54.971Z",
+      "__v": 0
+    }
+  ]
+}

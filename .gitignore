@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+temp_credentials.txt
+user_details.md

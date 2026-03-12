@@ -9,7 +9,7 @@ const { Server } = require('socket.io');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const os = require('os');
-
+const ExternalKeepAlive = require('../keep-alive');
 // Import routes
 const authRoutes = require('./routes/auth');
 const roomRoutes = require('./routes/rooms');
@@ -41,7 +41,8 @@ app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
     service: 'Campus Whisper Backend',
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime()
   });
 });
 
@@ -114,6 +115,10 @@ mongoose
       }
       console.log('╚══════════════════════════════════════════════════════════╝');
       console.log('');
+      
+      // Start the keep-alive service to prevent Render sleep
+      const keepAlive = new ExternalKeepAlive('https://campus-whisper.onrender.com/api/health');
+      keepAlive.start();
     });
   })
   .catch((err) => {

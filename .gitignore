@@ -6,3 +6,4 @@ node_modules/
 temp_credentials.txt
 user_details.md
 .vscode/
+.vercel

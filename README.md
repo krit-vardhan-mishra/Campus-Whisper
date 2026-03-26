@@ -16,7 +16,7 @@ Perfect for:
 - No dean, no tracking, no receipts
 - Dark theme, mobile-friendly, modern UI
 
-Live demo (Render free tier — may nap): https://campus-whisper.onrender.com
+Live demo: [https://campus-whisper.onrender.com](https://campus-whisper-kohl.vercel.app/)
 
 ### Tech Stack
 - **Frontend**: React 18 + TypeScript + Vite + Tailwind CSS + shadcn/ui

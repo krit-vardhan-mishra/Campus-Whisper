@@ -1,13 +1,12 @@
-const Message = require('../models/Message');
-const Room = require('../models/Room');
-const User = require('../models/User');
 const jwt = require('jsonwebtoken');
-
-// Track online users per room: { roomId: Set<userId> }
-const roomUsers = new Map();
+const User = require('../models/User');
+const Room = require('../models/Room');
+const { presenceManager } = require('../config/redis');
+const { addMessageJob } = require('../queue/messageQueue');
+const { socketRateLimiter, cleanSocketRateLimit } = require('../middleware/rateLimiter');
 
 module.exports = function setupSocket(io) {
-  // Authenticate socket connections via token
+  // Authenticate socket connections via JWT token
   io.use((socket, next) => {
     const token = socket.handshake.auth?.token;
     if (!token) {
@@ -24,34 +23,30 @@ module.exports = function setupSocket(io) {
   });
 
   io.on('connection', async (socket) => {
-    console.log(`⚡ Socket connected: ${socket.userAlias} (${socket.id})`);
+    // Set user online in Redis / Presence Store
+    await presenceManager.setUserOnlineStatus(socket.userId, 'online');
 
-    // Set user online
-    await User.findByIdAndUpdate(socket.userId, { status: 'online' });
+    // Track active joined rooms for socket cleanup
+    const joinedRooms = new Set();
 
     // JOIN ROOM
     socket.on('join_room', async (roomId) => {
       try {
         socket.join(roomId);
+        joinedRooms.add(roomId);
 
-        // Track user in room
-        if (!roomUsers.has(roomId)) {
-          roomUsers.set(roomId, new Set());
-        }
-        roomUsers.get(roomId).add(socket.userId);
+        // Add user to Redis presence store & get updated count instantly
+        const onlineCount = await presenceManager.addRoomUser(roomId, socket.userId);
 
-        // Update online count
-        const onlineCount = roomUsers.get(roomId).size;
-        await Room.findByIdAndUpdate(roomId, { onlineCount });
+        // Async background sync to MongoDB room online count
+        Room.findByIdAndUpdate(roomId, { onlineCount }).catch(() => {});
 
-        // Notify room
-        socket.to(roomId).emit('user_joined', {
+        // Broadcast to everyone in room
+        io.to(roomId).emit('user_joined', {
           userId: socket.userId,
           userName: socket.userAlias,
           onlineCount
         });
-
-        console.log(`${socket.userAlias} joined room ${roomId} (${onlineCount} online)`);
       } catch (err) {
         console.error('join_room error:', err.message);
       }
@@ -61,66 +56,82 @@ module.exports = function setupSocket(io) {
     socket.on('leave_room', async (roomId) => {
       try {
         socket.leave(roomId);
+        joinedRooms.delete(roomId);
 
-        if (roomUsers.has(roomId)) {
-          roomUsers.get(roomId).delete(socket.userId);
-          const onlineCount = roomUsers.get(roomId).size;
-          await Room.findByIdAndUpdate(roomId, { onlineCount });
+        const onlineCount = await presenceManager.removeRoomUser(roomId, socket.userId);
+        Room.findByIdAndUpdate(roomId, { onlineCount }).catch(() => {});
 
-          socket.to(roomId).emit('user_left', {
-            userId: socket.userId,
-            userName: socket.userAlias,
-            onlineCount
-          });
-        }
+        io.to(roomId).emit('user_left', {
+          userId: socket.userId,
+          userName: socket.userAlias,
+          onlineCount
+        });
       } catch (err) {
         console.error('leave_room error:', err.message);
       }
     });
 
-    // SEND MESSAGE — matches frontend's socketService.emit('send_message', { content, roomId })
-    socket.on('send_message', async (data) => {
+    // HIGH-THROUGHPUT SEND MESSAGE
+    // Fast Path: Immediate Redis Pub/Sub Fanout
+    // Async Path: Write-Behind Queue Persistence
+    socket.on('send_message', async (data, ackCallback) => {
       try {
-        const { content, roomId, type, metadata } = data;
+        const { content, roomId, type, metadata, clientTempId } = data;
         if (!content || !roomId) return;
 
-        const user = await User.findById(socket.userId);
-        if (!user) return;
+        // 1. Rate Limiter check (Max 10 messages per 3s)
+        if (!socketRateLimiter(socket, 10, 3000)) {
+          if (typeof ackCallback === 'function') {
+            ackCallback({ status: 'error', message: 'Rate limit exceeded. Slow down.' });
+          }
+          return;
+        }
 
-        const message = await Message.create({
-          room: roomId,
-          userId: socket.userId,
-          userName: user.alias,
-          userAvatar: user.avatar || '',
-          content,
-          type: type || 'text',
-          metadata: metadata || null
-        });
-
-        // Update room timestamp
-        await Room.findByIdAndUpdate(roomId, { updatedAt: new Date() });
+        const timestamp = new Date().toISOString();
+        const messageId = `msg_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
 
         const payload = {
-          id: message._id,
+          id: messageId,
+          clientTempId: clientTempId || null,
           userId: socket.userId,
-          userName: user.alias,
-          userAvatar: user.avatar || '',
+          userName: socket.userAlias,
+          userAvatar: socket.userAvatar || '',
           content,
-          timestamp: message.createdAt,
+          timestamp,
           type: type || 'text',
-          metadata: metadata || null
+          metadata: metadata || null,
+          status: 'sent'
         };
 
-        // Broadcast to everyone in room (including sender as receive_message)
+        // 2. FAST PATH: Instant real-time broadcast to room subscribers (<5ms)
         io.to(roomId).emit('receive_message', payload);
 
-        console.log(`💬 ${user.alias} in ${roomId}: ${content.substring(0, 50)}`);
+        // Send ACK back to sender immediately
+        if (typeof ackCallback === 'function') {
+          ackCallback({ status: 'ok', id: messageId, clientTempId });
+        }
+
+        // 3. ASYNC PATH: Enqueue message payload to write-behind batch queue for MongoDB insertion
+        addMessageJob({
+          roomId,
+          userId: socket.userId,
+          userName: socket.userAlias,
+          userAvatar: socket.userAvatar || '',
+          content,
+          type: type || 'text',
+          metadata: metadata || null,
+          timestamp
+        });
+
       } catch (err) {
         console.error('send_message error:', err.message);
+        if (typeof ackCallback === 'function') {
+          ackCallback({ status: 'error', message: 'Message delivery failed' });
+        }
       }
     });
 
-    // TYPING INDICATOR
+    // TYPING INDICATORS (Throttled Fanout)
     socket.on('typing', (data) => {
       const { roomId } = data;
       if (roomId) {
@@ -141,26 +152,21 @@ module.exports = function setupSocket(io) {
       }
     });
 
-    // DISCONNECT
+    // DISCONNECT & PRESENCE CLEANUP
     socket.on('disconnect', async () => {
-      console.log(`🔌 Socket disconnected: ${socket.userAlias}`);
+      cleanSocketRateLimit(socket.id);
+      await presenceManager.setUserOnlineStatus(socket.userId, 'offline');
 
-      // Set user offline
-      await User.findByIdAndUpdate(socket.userId, { status: 'offline' });
+      // Cleanup user presence across joined rooms
+      for (const roomId of joinedRooms) {
+        const onlineCount = await presenceManager.removeRoomUser(roomId, socket.userId);
+        Room.findByIdAndUpdate(roomId, { onlineCount }).catch(() => {});
 
-      // Remove from all rooms they were tracking
-      for (const [roomId, users] of roomUsers.entries()) {
-        if (users.has(socket.userId)) {
-          users.delete(socket.userId);
-          const onlineCount = users.size;
-          await Room.findByIdAndUpdate(roomId, { onlineCount });
-
-          io.to(roomId).emit('user_left', {
-            userId: socket.userId,
-            userName: socket.userAlias,
-            onlineCount
-          });
-        }
+        io.to(roomId).emit('user_left', {
+          userId: socket.userId,
+          userName: socket.userAlias,
+          onlineCount
+        });
       }
     });
   });

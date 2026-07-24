@@ -1,23 +1,25 @@
 import { io, Socket } from 'socket.io-client';
 
-// In production the frontend is served by the backend on the same origin,
-// so we connect to the current origin. In development Vite runs on a
-// different port, so we point to the backend port (5002).
 const SOCKET_URL: string =
   (import.meta as any).env?.VITE_SOCKET_URL ||
   (import.meta.env.PROD
     ? window.location.origin   // same origin
     : `http://${window.location.hostname}:5002`);
 
+export interface SendMessageAck {
+  status: 'ok' | 'error';
+  id?: string;
+  clientTempId?: string;
+  message?: string;
+}
+
 class SocketService {
   private socket: Socket | null = null;
   private currentRoomId: string | null = null;
 
   connect(token: string) {
-    // Already connected with same socket — nothing to do
     if (this.socket?.connected) return;
 
-    // If an old disconnected socket exists, clean it up first
     if (this.socket) {
       this.socket.removeAllListeners();
       this.socket.disconnect();
@@ -35,7 +37,6 @@ class SocketService {
 
     this.socket.on('connect', () => {
       console.log('[Socket] Connected:', this.socket?.id);
-      // Re-join the active room on reconnect so events keep flowing
       if (this.currentRoomId) {
         console.log('[Socket] Rejoining room after reconnect:', this.currentRoomId);
         this.socket?.emit('join_room', this.currentRoomId);
@@ -72,8 +73,21 @@ class SocketService {
     this.socket?.emit('leave_room', roomId);
   }
 
-  sendMessage(content: string, roomId: string, type?: string) {
-    this.socket?.emit('send_message', { content, roomId, type });
+  sendMessage(
+    content: string,
+    roomId: string,
+    type?: string,
+    clientTempId?: string,
+    ackCallback?: (ack: SendMessageAck) => void
+  ) {
+    if (!this.socket) return;
+    this.socket.emit(
+      'send_message',
+      { content, roomId, type, clientTempId },
+      (ack: SendMessageAck) => {
+        if (ackCallback) ackCallback(ack);
+      }
+    );
   }
 
   emitTyping(roomId: string) {

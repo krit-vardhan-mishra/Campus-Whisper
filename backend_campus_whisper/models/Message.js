@@ -35,6 +35,9 @@ const messageSchema = new mongoose.Schema({
   }
 }, { timestamps: true });
 
+// Compound index for high-performance room message history retrieval
+messageSchema.index({ room: 1, createdAt: -1 });
+
 messageSchema.methods.toJSON = function() {
   const obj = this.toObject();
   obj.id = obj._id;
